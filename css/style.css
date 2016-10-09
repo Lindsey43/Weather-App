@@ -1,0 +1,153 @@
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 8.0vw !important;
+    }
+    .info {
+        width: 61vw !important;
+    }
+    .special-info {
+        width: 61vw !important;
+    }
+    #h2-container {
+        font-size: 10.0vw !important;
+        width: 29vw !important;
+    }
+    h2 {
+        font-size: 10.0vw !important;
+        width: 29vw !important;
+    }
+    #para-container {
+        font-size: 5.0vw !important;
+        width: 29vw !important;
+    }
+    #weather-icon {
+        font-size: 13.0vw !important;
+    }
+    li {
+        font-size: 4.2vw !important;
+        width: 20vw !important;
+    }
+    footer p {
+        font-size: 2.5vw !important;
+    }
+}
+
+
+/*Main CSS */
+
+body {
+    background-color: 	#005f95;
+    background-position: center;
+   font-family: 'Noto Serif', serif;
+    text-align: center;
+    text-shadow: 0px 2px 3px black;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-duration: 4s;
+    -moz-animation-delay: 1.5s;
+}
+
+h1 {
+    color: azure;
+    font-size: 5.5vw;
+}
+
+#info1 {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.info {
+    color: azure;
+    padding: 3px;
+    margin: 0 auto;
+    width: 60vw;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+#info2 {
+    padding-top: 1vw;
+}
+
+.float-fix {
+    clear: both;
+}
+
+.special-info {
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    width: 60vw;
+    background-color: #c5eff7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
+
+#h2-container {
+    font-size: 9.0vw;
+    line-height: 9vw;
+    opacity: 0.9;
+    width: 28vw;
+    float: left;
+    margin: 0;
+    padding-top: 2vw;
+}
+
+h2 {
+    font-size: 9.0vw;
+    line-height: 9vw;
+    opacity: 0.9;
+    width: 28vw;
+    float: left;
+    margin: 0;
+}
+
+.unit {
+    color: 	#a1c8ec;
+    font-size: 8vw;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#para-container {
+    font-family: 'Noto Serif', serif; ;
+    font-size: 3.0vw;
+    line-height: 3.5vw;
+    opacity: 0.9;
+    width: 28vw;
+    margin: 0;
+    padding-top: 2vw;
+    float: right;
+}
+
+#weather-icon {
+    font-size: 12.0vw;
+    padding-top: 2.5vw;
+    opacity: 0.9;
+    color: 	#c5eff7;
+    clear: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 1s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    font-size: 3.2vw;
+    width: 19vw;
+    color: #333;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+}
+
+th{
+    text-align: center;
+    color: azure;
+}

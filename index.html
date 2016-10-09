@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App Project by: Lindsey Baker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <body class="container">
+        <h1 class="text-center">
+  Weather App 
+  </h1>
+        <div id="info1" class="info"> <i id="weather-icon" class="animated pulse infinite"></i> </div>
+        <!--- info1 is closed --->
+        <div id="info2" class="info">
+            <div id="h2-container">
+                <h2 id="tempC" class="temp"></h2>
+                <h2 id="tempF" class="temp" style="display: none;"></h2> 
+            </div>
+            <!-- h2-container is closed -->
+            <div id="para-container">
+                <p id="location" class=""></p>
+                <p id="cond" class=""></p>
+            </div>
+            <!-- para-container closed -->
+            <div class="float-fix"></div>
+        </div>
+        <!--- info2 is closed --->
+        <div class="special-info">
+            <ul>
+                <li>
+                    <p id="wind"><i class="wi wi-strong-wind"></i> </p>
+                </li>
+                <li>
+                    <p id="humidity"><i class="wi wi-humidity"></i> </p>
+                </li>
+                <li>
+                    <p id="date"><i class="fa fa-calendar"></i></p>
+                </li>
+            </ul>
+        </div>
+        <!-- Info is closed --->
+        <table width="100%" >
+  <tbody>
+    <tr>
+      <th>Time&nbsp;</th>
+
+      <th>Icon</th>
+
+      <th>Temperture</th>
+
+      <th>Wind Speed</th>
+
+      <th>Summary</th>
+        
+        <th>POP</th>
+
+    </tr>
+
+    <tr>
+      <th>12am</th>
+
+      <th><img src="images/clear-day.png"</th>
+
+      <th>15°C</th>
+
+      <th>21 km/h</th>
+
+      <th>Mainly Clear</th>
+
+      <th>0%</th>
+    </tr>
+
+    <tr>
+      <th>4am</th>
+
+      <th><img src="images/clear-night.png"</th>
+
+      <th>9°C</th>
+
+      <th>21 km/h</th>
+
+      <th>Mainly clear</th>
+
+      <th>10%</th>
+    </tr>
+
+    <tr>
+      <th>8am</th>
+
+      <th><img src="images/cloudy-day.png"</th>
+
+      <th>8°C</th>
+
+      <th>12 km/h</th>
+
+      <th>A mix of sun and clouds</th>
+
+      <th>10%</th>
+    </tr>
+
+    <tr>
+      <th>8pm</th>
+
+      <th><img src="images/cloudy-night.png"</th>
+
+      <th>7°C</th>
+
+      <th>11 km/h</th>
+
+      <th>Partly cloudy overnight</th>
+
+      <th>20%</th>
+    </tr>
+
+    <tr>
+      <th>2am</th>
+
+      <th><img src="images/fog%20.png"</th>
+
+      <th>10°C</th>
+
+      <th>5 km/h</th>
+
+      <th>Mainly Fog Day</th>
+
+      <th>5%</th>
+    </tr>
+
+    <tr>
+      <th>10am</th>
+
+      <th><img src="images/partly-cloudy-day.png"</th>
+
+      <th>14°C</th>
+
+      <th>12 km/h</th>
+
+      <th>Mainly sunny</th>
+
+      <th>30%</th>
+    </tr>
+
+    <tr>
+      <th>6pm</th>
+
+      <th><img src="images/rain.png"</th>
+
+      <th>12°C</th>
+
+      <th>11 km/h</th>
+
+      <th>Heavy Rain</th>
+
+      <th>100%</th>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
